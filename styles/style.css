@@ -1,46 +1,5 @@
 
-@font-face {
-  font-family: EB Garamond;
-  font-style: regular;
-  font-weight: 400;
-  src: url("../fonts/ebgaramondregular.woff") format("woff2");
-  font-display: swap;
-}
-
-@font-face {
-  font-family: EB Garamond;
-  font-style: medium;
-  font-weight: 500;
-  src: url("../fonts/ebgaramondmedium.woff2") format("woff2");
-  font-display: swap;
-}
-
-
-@font-face {
-  font-family: Inter;
-  font-style: regular;
-  font-weight: 400;
-  src: url("../fonts/interregular.woff2") format("woff2");
-  font-display: swap;
-}
-
-
-@font-face {
-  font-family: Inter;
-  font-style: bold;
-  font-weight: 700;
-  src: url("../fonts/interbold.woff2") format("woff2");
-  font-display: swap;
-}
-
-
-
-
-
-
 * {
-  padding: 0;
-  margin: 0;
   box-sizing: border-box;
 }
 
@@ -49,7 +8,7 @@ body {
   font-size: 16px;
   font-weight: 400;
   width: 360px;
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
 }
 
@@ -74,6 +33,8 @@ body {
   gap: 12px;
   list-style: none;
 }
+
+
 .navigation-link {
   font-size: 16px;
   font-family: Inter;
@@ -109,6 +70,7 @@ body {
 
 }
 .banner-block-title {
+  margin: 0;
   text-transform: uppercase;
   text-align: start;
   font-weight: 400;
@@ -116,12 +78,14 @@ body {
 
 
 .banner-block-description {
+  margin: 0;
   text-align: center;
   font-weight: 400;
 }
 
 
 .banner-block-text {
+  margin: 0;
   text-align: end;
 }
 
@@ -141,15 +105,18 @@ body {
 
 
 .info-cards-data {
+  margin: 0;
   margin-bottom: 24px;
   display: flex;
   justify-content: space-between;
+  align-items: baseline;
   color: #CCCCCC;
 }
 
 
 
 .info-cards-data-text {
+ margin: 0;
  width: 203px;
  font-weight: 400;
 }
@@ -161,6 +128,7 @@ body {
 
 
 .info-cards-description-tx-one {
+  margin: 0;
   margin-bottom: 24px;
 }
 
@@ -172,6 +140,7 @@ body {
 
 
 .info-cards-two-title {
+  margin: 0;
   font-size: 28px;
   font-family: EB Garamond;
   font-weight: 500;
@@ -180,10 +149,16 @@ body {
 }
 
 .info-cards-two-title-tx-one {
+  margin: 0;
   text-align: end;
 }
 
+.info-cards-two-title-tx-two {
+  margin: 0;
+}
+
 .info-cards-two-text {
+  margin: 0;
   font-family: Inter;
   font-size: 20px;
   font-weight: 400;
@@ -206,6 +181,7 @@ body {
 }
 
 .info-cards-two-description {
+  margin: 0;
   font-weight: 400;
 }
 
@@ -216,6 +192,7 @@ body {
 }
 
 .info-cards-three-title {
+  margin: 0;
   font-size: 28px;
   font-family: EB Garamond;
   font-weight: 500;
@@ -225,10 +202,16 @@ body {
 
 
 .info-cards-three-title-tx-one {
+  margin: 0;
   text-align: end;
 }
 
+.info-cards-three-title-tx-two {
+  margin: 0;
+}
+
 .info-cards-three-text-tx {
+  margin: 0;
   font-size: 20px;
   line-height: 27px;
   color: #F5F5F5;
@@ -262,11 +245,13 @@ body {
 }
 
 .info-authors-cards-description {
+  margin: 0;
   font-weight: 700;
   margin-bottom: 8px;
 }
 
 .info-authors-cards-title {
+  margin: 0;
   font-size: 22px;
   font-family: EB Garamond;
   font-weight: 500;
@@ -283,7 +268,7 @@ body {
 }
 
 
-.page-footer-container {
+.page-footer-box {
   display: flex;
   justify-content: space-between;
 }
@@ -310,11 +295,17 @@ body {
 }
 
 li:last-child {
-  margin-right: 0px;
+  margin-right: 0;
 }
 
 
 
 .visibility-hidden {
+  display: none;
   visibility: hidden;
+  margin: 0;
+}
+
+figure {
+  margin: 0;
 }
