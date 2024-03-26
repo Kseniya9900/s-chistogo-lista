@@ -7,7 +7,6 @@ body {
   font-family: Inter;
   font-size: 16px;
   font-weight: 400;
-  color: #F5F5F5;
   width: 360px;
   margin: 0 auto;
   padding: 0;
@@ -21,7 +20,6 @@ body {
 
 .container-page {
   margin: 0;
-  padding: 0;
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
@@ -33,7 +31,6 @@ body {
 
 .navigation-list {
   margin: 0;
-  padding: 0;
   display: flex;
   flex-direction: column;
   gap: 12px;
@@ -43,7 +40,6 @@ body {
 
 .navigation-link {
   margin: 0;
-  padding: 0;
   font-size: 16px;
   font-family: Inter;
   font-weight: 400;
@@ -61,7 +57,6 @@ body {
 
 .banner {
   margin: 0;
-  padding: 0;
   background-image: url('../images/cover.svg');
   background-repeat: no-repeat;
   background-position: bottom 20px left 7px;
@@ -72,7 +67,6 @@ body {
 
 .banner-block {
   margin: 0;
-  padding: 0;
   font-size: 72px;
   font-family: EB Garamond;
   font-weight: 400;
@@ -83,7 +77,6 @@ body {
 }
 .banner-block-title {
   margin: 0;
-  padding: 0;
   text-transform: uppercase;
   text-align: start;
   font-weight: 400;
@@ -92,7 +85,6 @@ body {
 
 .banner-block-description {
   margin: 0;
-  padding: 0;
   text-align: center;
   font-weight: 400;
 }
@@ -100,7 +92,6 @@ body {
 
 .banner-block-text {
   margin: 0;
-  padding: 0;
   text-align: end;
 }
 
@@ -108,7 +99,6 @@ body {
 
 .banner-block-number {
   margin: 0;
-  padding: 0;
   font-weight: 400;
 }
 
@@ -116,7 +106,6 @@ body {
 
 .info-cards {
   margin: 0;
-  padding: 0;
   padding: 30px 20px 38px 20px;
   background-color: #131313;
   color: #F5F5F5;
@@ -125,7 +114,6 @@ body {
 
 .info-cards-data {
   margin: 0;
-  padding: 0;
   margin-bottom: 24px;
   display: flex;
   justify-content: space-between;
@@ -137,7 +125,6 @@ body {
 
 .info-cards-data-text {
  margin: 0;
- padding: 0;
  width: 203px;
  font-weight: 400;
 }
@@ -145,34 +132,29 @@ body {
 
 .info-cards-data-number {
   margin: 0;
-  padding: 0;
   font-weight: 400;
 }
 
 
 .info-cards-description-tx-one {
   margin: 0;
-  padding: 0;
   margin-bottom: 24px;
 }
 
 
 .info-cards-two {
   margin: 0;
-  padding: 0;
   padding: 40px 20px;
   background-color: #FEE42A;
 }
 
 .info-cards-two-text-tx {
   margin: 0;
-  padding: 0;
 }
 
 
 .info-cards-two-title {
   margin: 0;
-  padding: 0;
   font-size: 28px;
   font-family: EB Garamond;
   font-weight: 500;
@@ -182,13 +164,11 @@ body {
 
 .info-cards-two-title-tx-one {
   margin: 0;
-  padding: 0;
   text-align: end;
 }
 
 .info-cards-two-title-tx-two {
   margin: 0;
-  padding: 0;
 }
 
 
@@ -196,13 +176,11 @@ body {
 
 .info-cards-description-tx-two {
   margin: 0;
-  padding: 0;
 }
 
 
 .info-cards-two-text {
   margin: 0;
-  padding: 0;
   font-family: Inter;
   font-size: 20px;
   font-weight: 400;
@@ -215,35 +193,30 @@ body {
 /*list*/
 
 .info-cards-two-list {
-  margin: 0;
-  padding: 0;
   font-size: 16px;
   font-weight: 700;
   line-height: 21px;
-  color: #131313;
   padding-left: 16px;
   display: flex;
   flex-direction: column;
   gap: 16px;
+  margin: 0;
 }
 
 .info-cards-two-description {
   margin: 0;
-  padding: 0;
   font-weight: 400;
 }
 
 
 .info-cards-three {
   margin: 0;
-  padding: 0;
   padding: 40px 20px 60px 20px;
   background-color: #131313;
 }
 
 .info-cards-three-title {
   margin: 0;
-  padding: 0;
   font-size: 28px;
   font-family: EB Garamond;
   font-weight: 500;
@@ -254,20 +227,18 @@ body {
 
 .info-cards-three-title-tx-one {
   margin: 0;
-  padding: 0;
   text-align: end;
 }
 
 .info-cards-three-title-tx-two {
   margin: 0;
-  padding: 0;
 }
 
 .info-cards-three-text-tx {
   margin: 0;
-  padding: 0;
   font-size: 20px;
   line-height: 27px;
+  color: #F5F5F5;
   margin-bottom: 32px;
 }
 
@@ -275,7 +246,6 @@ body {
 
 .info-authors {
   margin: 0;
-  padding: 0;
   display: flex;
   flex-direction: column;
   gap: 32px;
@@ -284,7 +254,7 @@ body {
 
 .info-authors-cards {
   margin: 0;
-  padding: 0;
+  color: #F5F5F5;
   padding: 40px 20px;
   background-color: #343434;
   border-radius: 30px;
@@ -299,20 +269,17 @@ body {
 
 .info-authors-cards-image {
   margin: 0;
-  padding: 0;
   margin-bottom: 8px;
 }
 
 .info-authors-cards-description {
   margin: 0;
-  padding: 0;
   font-weight: 700;
   margin-bottom: 8px;
 }
 
 .info-authors-cards-title {
   margin: 0;
-  padding: 0;
   font-size: 22px;
   font-family: EB Garamond;
   font-weight: 500;
@@ -322,7 +289,6 @@ body {
 
 .info-authors-cards-text {
   margin: 0;
-  padding: 0;
 }
 
 /*footer*/
@@ -351,11 +317,11 @@ body {
 
 
 .page-footer-list {
-  margin: 0;
-  padding: 0;
   display: flex;
   flex-direction: row;
   list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 
@@ -375,19 +341,18 @@ body {
   margin-right: 16px;
 }
 
-
 li:last-child {
   margin-right: 0;
+  padding: 0;
 }
 
 
 
 .visibility-hidden {
-  margin: 0;
-  padding: 0;
   display: none;
   visibility: hidden;
-
+  margin: 0;
+  padding: 0;
 }
 
 figure {
