@@ -8,7 +8,7 @@ body {
   font-size: 16px;
   font-weight: 400;
   width: 360px;
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
 }
 
@@ -123,6 +123,7 @@ body {
 
 
 .info-cards-data-number {
+  margin: 0;
   font-weight: 400;
 }
 
@@ -136,6 +137,10 @@ body {
 .info-cards-two {
   padding: 40px 20px;
   background-color: #FEE42A;
+}
+
+.info-cards-two-text-tx {
+  margin: 0;
 }
 
 
@@ -156,6 +161,16 @@ body {
 .info-cards-two-title-tx-two {
   margin: 0;
 }
+
+.info-cards-description-tx-one {
+ margin: 0;
+}
+
+
+.info-cards-description-tx-two {
+  margin: 0;
+}
+
 
 .info-cards-two-text {
   margin: 0;
@@ -178,6 +193,7 @@ body {
   display: flex;
   flex-direction: column;
   gap: 16px;
+  margin: 0;
 }
 
 .info-cards-two-description {
@@ -258,6 +274,11 @@ body {
   margin-bottom: 8px;
 }
 
+
+.info-authors-cards-text {
+  margin: 0;
+}
+
 /*footer*/
 
 .page-footer {
@@ -267,6 +288,9 @@ body {
   border-top: 1px solid #FEE42A;
 }
 
+.page-footer-container-title {
+  margin: 0;
+}
 
 .page-footer-box {
   display: flex;
@@ -279,6 +303,7 @@ body {
   display: flex;
   flex-direction: row;
   list-style: none;
+  margin: 0;
 }
 
 
