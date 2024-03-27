@@ -35,7 +35,7 @@ body {
   margin: 0;
   display: flex;
   flex-direction: column;
-  gap: 12px;
+  gap: 10px;
   list-style: none;
 }
 
@@ -45,7 +45,7 @@ body {
   font-size: 16px;
   font-family: Inter;
   font-weight: 400;
-  line-height: 20px;
+  line-height: 19.2px;
   color: #F5F5F5;
 }
 
@@ -60,8 +60,9 @@ body {
 .banner {
   margin: 0;
   background-image: url('../images/cover.svg');
+  background-size: 339px 198px;
   background-repeat: no-repeat;
-  background-position: bottom 20px left 7px;
+  background-position: bottom 28px left 21px;
   background-color: #131313;
 }
 
@@ -73,7 +74,7 @@ body {
   font-family: EB Garamond;
   font-weight: 400;
   line-height: 72px;
-  padding: 7px 24px 30px 20px;
+  padding: 4px 24px 34px 20px;
   color: #FFFFFF;
 
 }
@@ -108,7 +109,7 @@ body {
 
 .info-cards {
   margin: 0;
-  padding: 30px 20px 38px 20px;
+  padding: 0 20px 38px 20px;
   background-color: #131313;
 }
 
@@ -158,6 +159,7 @@ body {
   margin: 0;
   font-size: 28px;
   font-family: EB Garamond;
+  line-height: 32.2px;
   font-weight: 500;
   color: #131313;
   margin-bottom: 32px;
@@ -185,7 +187,7 @@ body {
   font-family: Inter;
   font-size: 20px;
   font-weight: 400;
-  line-height: 28px;
+  line-height: 27px;
   color: #131313;
   margin-bottom: 32px;
 }
@@ -196,7 +198,7 @@ body {
 .info-cards-two-list {
   font-size: 16px;
   font-weight: 700;
-  line-height: 21px;
+  line-height: 21.6px;
   padding-left: 16px;
   display: flex;
   flex-direction: column;
@@ -220,6 +222,7 @@ body {
 .info-cards-three-title {
   margin: 0;
   font-size: 28px;
+  line-height: 32.2px;
   font-family: EB Garamond;
   font-weight: 500;
   margin-bottom: 32px;
@@ -254,7 +257,7 @@ body {
 
 .info-authors-cards {
   margin: 0;
-  padding: 40px 20px;
+  padding: 20px;
   background-color: #343434;
   border-radius: 30px;
 }
@@ -268,7 +271,6 @@ body {
 
 .info-authors-cards-image {
   margin: 0;
-  margin-bottom: 8px;
 }
 
 .info-authors-cards-description {
@@ -280,6 +282,7 @@ body {
 .info-authors-cards-title {
   margin: 0;
   font-size: 22px;
+  line-height: 29.7px;
   font-family: EB Garamond;
   font-weight: 500;
   margin-bottom: 8px;
@@ -316,6 +319,7 @@ body {
 .page-footer-list {
   display: flex;
   flex-direction: row;
+  column-gap: 10px;
   list-style: none;
   margin: 0;
   padding: 0;
@@ -327,6 +331,7 @@ body {
   margin: 0;
   padding: 0;
   font-size: 16px;
+  line-height: 17.5px;
   text-decoration: none;
   color: #F5F5F5;
 }
@@ -335,7 +340,6 @@ body {
 .page-footer-item {
   margin: 0;
   padding: 0;
-  margin-right: 16px;
 }
 
 li:last-child {
