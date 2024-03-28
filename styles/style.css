@@ -9,7 +9,7 @@ body {
   font-weight: 400;
   line-height: 21.6px;
   color: #F5F5F5;
-  width: 360px;
+  max-width: 360px;
   margin: 0 auto;
   padding: 0;
 }
@@ -27,6 +27,10 @@ body {
   justify-content: space-between;
 }
 
+.logo {
+  width: 78px;
+  height: 15px;
+}
 
 /*Menu*/
 
@@ -271,6 +275,8 @@ body {
 
 .info-authors-cards-image {
   margin: 0;
+  width: 100px;
+  height: 100px;
 }
 
 .info-authors-cards-description {
@@ -319,7 +325,7 @@ body {
 .page-footer-list {
   display: flex;
   flex-direction: row;
-  column-gap: 10px;
+  column-gap: 16px;
   list-style: none;
   margin: 0;
   padding: 0;
@@ -330,7 +336,7 @@ body {
 .page-footer-link {
   margin: 0;
   padding: 0;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 17.5px;
   text-decoration: none;
   color: #F5F5F5;
